@@ -1,0 +1,21 @@
+{
+  "name": "baabouj/eagle_flight",
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Omar Baabouj",
+      "email": "baabouj.dev@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.4",
+    "ext-pdo": "*"
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t ./public"
+  }
+}
